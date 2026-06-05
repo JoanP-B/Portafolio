@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joan Stiven — Ingeniería de Sistemas</title>
+  <meta name="description"
+    content="Portafolio de Joan Stiven, estudiante de Ingeniería de Sistemas. Experto en desarrollo web, backend, WordPress y automatización con Python." />
+  <meta name="keywords"
+    content="Joan Stiven, portafolio, ingeniería de sistemas, desarrollo web, backend, Python, WordPress" />
+  <meta name="author" content="Joan Stiven" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header-left">
+      <span class="header-name">Joan Stiven Peralta Bedoya</span>
+      <span class="header-role">Ingeniería de Sistemas</span>
+    </div>
+
+    <nav class="header-nav" aria-label="Navegación principal">
+      <div class="pill-nav" id="pill-nav">
+        <div class="pill-indicator" id="pill-indicator"></div>
+        <button class="pill-btn active" id="btn-trabajo" data-target="trabajo" aria-pressed="true">Trabajo</button>
+        <button class="pill-btn" id="btn-info" data-target="info" aria-pressed="false">Info</button>
+      </div>
+    </nav>
+
+    <div class="header-right">
+      <a href="mailto:peraltajoan36@gmail.com" target="_blank" rel="noopener noreferrer" class="header-link"
+        id="link-linkedin">
+        Contacto <span class="arrow">↗</span>
+      </a>
+      <a href="/Joan_Peralta.pdf" target="_blank" class="header-link" id="link-curriculum" rel="noopener noreferrer">
+        Curriculum <span class="arrow">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════ HERO SECTION ════════════════════════════ -->
+  <section class="hero" id="hero" aria-label="Sección principal">
+    <div class="os-window" id="os-window" role="region" aria-label="Ventana de presentación">
+
+      <!-- Title bar (macOS style) -->
+      <div class="window-titlebar">
+        <div class="window-controls" aria-hidden="true">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+        </div>
+        <div class="window-plus" aria-hidden="true">+</div>
+      </div>
+
+      <!-- Window body -->
+      <div class="window-body">
+        <h1 class="hero-headline">
+          Desarrollo soluciones<br />
+          web, arquitectura<br />
+          backend y <em>automatización.</em>
+        </h1>
+
+        <div class="hero-sub">
+          <p class="hero-sub-strong">Estudiante de Ingeniería de Sistemas (19 años).</p>
+          <p class="hero-sub-light">Junior en Python y WordPress.</p>
+        </div>
+
+        <!-- Scroll indicator -->
+        <a href="#sobre-mi" class="scroll-indicator" id="scroll-indicator" aria-label="Desplázate hacia abajo">
+          <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <polyline points="19 12 12 19 5 12" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ SOBRE MÍ ════════════════════════════════ -->
+  <section class="section" id="sobre-mi" aria-label="Sobre mí">
+    <div class="container">
+      <div class="section-tag">/ Sobre mí</div>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <h2 class="section-title">Hola, soy <span class="accent">Joan Peralta</span></h2>
+          <p class="about-paragraph">
+            Tengo 19 años y soy estudiante de <strong>Ingeniería de Sistemas</strong>.
+            Me apasiona construir soluciones digitales que tengan impacto real: desde interfaces web
+            limpias y funcionales hasta sistemas backend robustos y scripts de automatización
+            que ahorran horas de trabajo.
+          </p>
+          <p class="about-paragraph">
+            Creo en el código limpio, el diseño con propósito y en aprender constantemente.
+            Cada proyecto es una oportunidad para llevar las ideas al siguiente nivel.
+          </p>
+          <div class="about-badges">
+            <span class="badge">Python</span>
+            <span class="badge">WordPress</span>
+            <span class="badge">Backend</span>
+            <span class="badge">Web Dev</span>
+            <span class="badge">SQL</span>
+          </div>
+        </div>
+        <div class="about-visual fade-in">
+          <div class="avatar-card">
+            <div class="avatar-ring">
+              <div class="avatar-inner">JS</div>
+            </div>
+            <div class="status-dot" aria-label="Disponible para proyectos"></div>
+            <p class="status-text">Disponible para proyectos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ HABILIDADES ═════════════════════════════ -->
+  <section class="section section-alt" id="habilidades" aria-label="Habilidades y experiencia">
+    <div class="container">
+      <div class="section-tag">/ Habilidades</div>
+      <h2 class="section-title fade-in">Áreas de <span class="accent">experiencia</span></h2>
+      <p class="section-subtitle fade-in">Tecnologías y disciplinas en las que me especializo.</p>
+
+      <div class="skills-grid" role="list">
+
+        <!-- Card 1: Web Programming -->
+        <article class="skill-card fade-in" role="listitem" id="skill-web">
+          <div class="skill-icon-wrap">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <div class="skill-number">01</div>
+          <h3 class="skill-title">Web Programming</h3>
+          <p class="skill-desc">
+            Desarrollo de interfaces y sitios dinámicos. HTML, CSS, JavaScript y frameworks modernos
+            para crear experiencias de usuario excepcionales.
+          </p>
+          <div class="skill-tags">
+            <span class="stag">HTML</span>
+            <span class="stag">CSS</span>
+            <span class="stag">JavaScript</span>
+          </div>
+          <div class="skill-arrow">↗</div>
+        </article>
+
+        <!-- Card 2: Backend -->
+        <article class="skill-card fade-in" role="listitem" id="skill-backend">
+          <div class="skill-icon-wrap">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+          </div>
+          <div class="skill-number">02</div>
+          <h3 class="skill-title">Backend</h3>
+          <p class="skill-desc">
+            Arquitectura de servidores, APIs REST y gestión de bases de datos.
+            Lógica robusta que sostiene aplicaciones escalables y seguras.
+          </p>
+          <div class="skill-tags">
+            <span class="stag">Python</span>
+            <span class="stag">SQL</span>
+            <span class="stag">APIs</span>
+          </div>
+          <div class="skill-arrow">↗</div>
+        </article>
+
+        <!-- Card 3: WordPress -->
+        <article class="skill-card fade-in" role="listitem" id="skill-wordpress">
+          <div class="skill-icon-wrap">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </div>
+          <div class="skill-number">03</div>
+          <h3 class="skill-title">WordPress</h3>
+          <p class="skill-desc">
+            Creación y gestión de sitios web a medida. Temas personalizados, plugins y
+            optimización para rendimiento y SEO.
+          </p>
+          <div class="skill-tags">
+            <span class="stag">Elementor</span>
+            <span class="stag">PHP</span>
+            <span class="stag">SEO</span>
+          </div>
+          <div class="skill-arrow">↗</div>
+        </article>
+
+        <!-- Card 4: Automatización -->
+        <article class="skill-card fade-in" role="listitem" id="skill-automatizacion">
+          <div class="skill-icon-wrap">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <div class="skill-number">04</div>
+          <h3 class="skill-title">Automatización</h3>
+          <p class="skill-desc">
+            Desarrollo y configuración de bots con Python para optimizar tareas repetitivas,
+            procesar datos y liberar tiempo para lo que importa.
+          </p>
+          <div class="skill-tags">
+            <span class="stag">Python</span>
+            <span class="stag">Bots</span>
+            <span class="stag">Scripts</span>
+          </div>
+          <div class="skill-arrow">↗</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ CONTACTO ═══════════════════════════════ -->
+  <section class="section" id="contacto" aria-label="Contacto">
+    <div class="container">
+      <div class="section-tag">/ Contacto</div>
+      <div class="contact-block fade-in">
+        <h2 class="contact-title">¿Tienes un proyecto<br /><span class="accent">en mente?</span></h2>
+        <p class="contact-sub">Hablemos. Estoy abierto a colaboraciones, freelance y nuevas oportunidades.</p>
+        <a href="mailto:peraltajoan36@gmail.com" class="cta-btn" id="cta-email">
+          Escríbeme
+          <span class="cta-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════ FOOTER ══════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <span class="footer-name">Joan Peralta</span>
+      <span class="footer-copy">© 2025 — Referencia del diseño tomada de la pagina <a
+          href="https://www.hostinger.com/co/tutoriales/portafolio-de-programador" target="_blank">HOSTINGER
+        </a></span>
+      <div class="footer-links">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link"
+          id="footer-linkedin">LinkedIn ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
